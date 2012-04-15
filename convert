@@ -1,0 +1,38 @@
+#!/bin/bash
+
+function usage(){
+	echo "Usage: "
+	echo "$0 -e extension [options]"
+	echo "Default extension is wav"
+}
+
+
+if [ $# -lt 1 ] 
+then
+	usage
+	exit 1
+fi
+
+FORMAT="wav"
+DESTINATION=""
+while getopts "e:h" OPTION
+do
+	case "$OPTION" in 
+	h)
+		usage
+		exit 1
+		;;
+	e)
+		FORMAT="$OPTARG"
+		echo "$OPTARG"
+		;;
+	esac
+done
+
+for f in *.$FORMAT
+do 
+	newname=`echo "$f"|sed "s/\.$1$//"`
+	echo "Converting $f in .mp3"
+	result=`ffmpeg -i "$f" "$newname".mp3 2> conversion.log`
+done
+
