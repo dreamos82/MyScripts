@@ -4,6 +4,8 @@ function usage(){
 	echo "Usage: "
 	echo "$0 -e extension [options]"
 	echo "Default extension is wav"
+	echo "Options: "
+	echo "-d destinationfolder"
 }
 
 
@@ -15,12 +17,15 @@ fi
 
 FORMAT="wav"
 DESTINATION=""
-while getopts "e:h" OPTION
+while getopts "e:hd:" OPTION
 do
 	case "$OPTION" in 
 	h)
 		usage
 		exit 1
+		;;
+	d)	
+		DESTINATION="$OPTARG"		
 		;;
 	e)
 		FORMAT="$OPTARG"
@@ -29,10 +34,11 @@ do
 	esac
 done
 
+echo $LOGFILE 
 for f in *.$FORMAT
 do 
-	newname=`echo "$f"|sed "s/\.$1$//"`
+	newname=`echo "$f"|sed "s/\.$FORMAT$//"`
 	echo "Converting $f in .mp3"
-	result=`ffmpeg -i "$f" "$newname".mp3 2> conversion.log`
+	result=`ffmpeg -i "$f" "$DESTINATION""$newname".mp3 2>conversion.log` 
 done
 
