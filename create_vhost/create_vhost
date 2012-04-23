@@ -1,0 +1,13 @@
+#! /bin/bash
+#Vhost creator script
+#Vers 0.0.1 by Ivan
+
+clear
+echo "Argomenti: $1"
+echo "Argomento: $2"
+cat vhost.template | while read line
+do 
+	echo "${line}" | sed "s/\@1/$1/g"\ >> $1
+done
+
+exit 0
