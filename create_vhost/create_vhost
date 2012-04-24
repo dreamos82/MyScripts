@@ -2,12 +2,18 @@
 #Vhost creator script
 #Vers 0.0.1 by Ivan
 
+function usage(){
+	echo "Usage: $0 foldername url"
+}
 clear
-echo "Argomenti: $1"
-echo "Argomento: $2"
-cat vhost.template | while read line
-do 
-	echo "${line}" | sed "s/\@1/$1/g"\ >> $1
-done
-
-exit 0
+if [ $# -lt 2 ] 
+then
+	usage
+	exit 1
+else
+	cat vhost.template | while read line
+	do 
+		echo "${line}" | sed "s/\@1/$1/g;s/\@2/$2/g"\ 
+	done
+	exit 0
+fi
