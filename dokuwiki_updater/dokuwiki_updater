@@ -1,0 +1,20 @@
+#!/bin/bash
+DOKUWIKI_VERSION="dokuwiki-2012-01-25a"
+
+function usage(){
+	echo "$0 destinationfolder backupfolder"
+}
+
+if [ $# -lt 2 ] 
+then
+	usage
+	exit 1
+else
+	cp -R $1 $2
+	wget "http://www.splitbrain.org/_media/projects/dokuwiki/dokuwiki-2012-01-25a.tgz"
+	tar -xzvf $DOKUWIKI_VERSION".tgz"
+	'cp' -rf $DOKUWIKI_VERSION/{*,.??*} $1
+	cd $1
+	rm "install.php"
+	exit 0
+fi
