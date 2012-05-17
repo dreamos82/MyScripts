@@ -1,0 +1,39 @@
+#!/bin/bash
+
+REMOTE_URL=http://italialinux.altervista.org/blog/feed/
+
+wget $REMOTE_URL -O rss.xml
+
+#ITEMS=`xmllint --xpath //title/text() rss.xml >tmpfile`
+ITEMS=`echo 'cat  //title/text()' | xmllint --shell  rss.xml `
+echo "$ITEMS" > tmpfile
+
+while read LINE
+do
+	if [ "$LINE" != "-------" ]
+	then
+	    echo $LINE
+	fi
+done < tmpfile
+
+#echo `echo $ITEMS | sed -e "s/-------//g"`
+#val=`echo "$ITEMS" | sed -e 's/-------//g'`
+#for val in "$ITEMS" 
+#do 
+#	echo "A"; 
+#	echo "$val"; 
+#done
+#echo $ITEMS > tmpfile
+#echo "$val"
+
+#val=`sed -n 's/^.*<title>\([^<]*\).*/\1/p' tmpfile`
+#CLEAN=echo sed -n '/<title>/,/<\/title>/p' tmpfile
+#IFS=\>
+#do
+#	val=`echo $ITEMS | sed -n '/<title>/,/<\/title/p'`
+#	val=`echo $ITEMS | sed 's/\<title\>.*\<\/title\>//g'`
+#	echo $val
+#done
+
+#echo $CLEAN
+#echo $ITEMS
