@@ -10,10 +10,18 @@ echo "$ITEMS" > tmpfile
 
 while read LINE
 do
-	if [ "$LINE" != "-------" ]
-	then
-	    echo $LINE
-	fi
+#	if [ "$LINE" != "-------" ] 
+#	then
+#		if [[ "$LINE"!=/* ]]
+#		then
+#		    echo $LINE
+#		fi
+#	fi
+	case $LINE in
+	    '/ >'*|---*|'/ > '*)
+	          continue;;
+	    esac
+	echo "$LINE"
 done < tmpfile
 
 #echo `echo $ITEMS | sed -e "s/-------//g"`

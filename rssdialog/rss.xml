@@ -13,12 +13,54 @@
 	<atom:link href="http://www.italialinux.com/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.italialinux.com</link>
 	<description>Guide, articoli dedicati a linux e non solo</description>
-	<lastBuildDate>Thu, 10 May 2012 11:45:47 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 20 May 2012 17:04:30 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.3.1</generator>
 <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+		<item>
+		<title>Mostrare i numeri di riga in VI</title>
+		<link>http://www.italialinux.com/2012/05/mostrare-i-numeri-di-riga-in-vi/</link>
+		<comments>http://www.italialinux.com/2012/05/mostrare-i-numeri-di-riga-in-vi/#comments</comments>
+		<pubDate>Sun, 20 May 2012 17:04:14 +0000</pubDate>
+		<dc:creator>italialinux</dc:creator>
+				<category><![CDATA[Tips And Tricks]]></category>
+		<category><![CDATA[Vi]]></category>
+		<category><![CDATA[line number]]></category>
+		<category><![CDATA[vi]]></category>
+		<category><![CDATA[vi line number]]></category>
+
+		<guid isPermaLink="false">http://www.italialinux.com/?p=819</guid>
+		<description><![CDATA[Se siamo dei fedelissimi utenti di vi, e abbiamo la necessitá di visualizzare il numero di riga accanto al sorgente, ci basta entrare in modalitá comandi e dare il seguente comando: :set number Se invece ci siamo stufati di avere i numeri di linea, semplicemente non ci serve di utilizzarli per rimuoverli basta dare: :set [...]]]></description>
+			<content:encoded><![CDATA[<p>Se siamo dei fedelissimi utenti di vi, e abbiamo la necessitá di visualizzare il numero di riga accanto al sorgente, ci basta entrare in modalitá comandi e dare il seguente comando:</p>
+<pre>:set number</pre>
+<p>Se invece ci siamo stufati di avere i numeri di linea, semplicemente non ci serve di utilizzarli per rimuoverli basta dare:</p>
+<pre>:set nonumber</pre>
+<p><a href="http://www.italialinux.com/wp-content/uploads/2012/05/vinumber.png"><img class="aligncenter size-full wp-image-820" title="vinumber" src="http://www.italialinux.com/wp-content/uploads/2012/05/vinumber.png" alt="" width="473" height="117" /></a></p>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Fmostrare-i-numeri-di-riga-in-vi%2F&amp;title=Mostrare%20i%20numeri%20di%20riga%20in%20VI" id="wpa2a_2"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+			<wfw:commentRss>http://www.italialinux.com/2012/05/mostrare-i-numeri-di-riga-in-vi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tanti auguri italialinux!</title>
+		<link>http://www.italialinux.com/2012/05/tanti-auguri-italialinux/</link>
+		<comments>http://www.italialinux.com/2012/05/tanti-auguri-italialinux/#comments</comments>
+		<pubDate>Fri, 18 May 2012 08:55:27 +0000</pubDate>
+		<dc:creator>italialinux</dc:creator>
+				<category><![CDATA[Italialinux]]></category>
+
+		<guid isPermaLink="false">http://www.italialinux.com/?p=816</guid>
+		<description><![CDATA[Non che a voi interesserá, ma ci tenevo a condividere con voi il compleanno di italialinux. Che oggi compie 2 anni, infatti la data del primo post da quando é nato il blog risale al 18/05/2010, e la potete trovare qua: http://www.italialinux.com/2010/05/benvenuti-nel-mio-blog/ Di cose ne sono successe in questi due anni, sia dal lato personale, [...]]]></description>
+			<content:encoded><![CDATA[<p>Non che a voi interesserá, ma ci tenevo a condividere con voi il compleanno di italialinux. Che oggi compie 2 anni, infatti la data del primo post da quando é nato il blog risale al 18/05/2010, e la potete trovare qua:</p>
+<p>http://www.italialinux.com/2010/05/benvenuti-nel-mio-blog/</p>
+<p>Di cose ne sono successe in questi due anni, sia dal lato personale, ma anche dal punto di vista del sito, infatti fino a poco tempo fa eravamo hostati su altervista, finalmente ho  comprato il dominio italialinux.com e ora é hostato su un server gestito direttamente da me.</p>
+<p>Sperando che qualcuno qua fuori apprezzi i post di questo glob intanto faccio tanti auguri al mio sito <img src='http://www.italialinux.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+<p>Si ok sono stato un pó autoreferenziale!! Ma che volete! <img src='http://www.italialinux.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Ftanti-auguri-italialinux%2F&amp;title=Tanti%20auguri%20italialinux%21" id="wpa2a_4"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+			<wfw:commentRss>http://www.italialinux.com/2012/05/tanti-auguri-italialinux/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>Nuovo Dominio: italialinux.com :)</title>
 		<link>http://www.italialinux.com/2012/05/nuovo-dominio-italialinux-com/</link>
@@ -36,7 +78,7 @@
 <p>Non che con altervista mi sia trovato male, ma dopo quasi 3 anni su quella piattaforma, ho deciso di portare il blog sul mio server dove non ho problemi di spazio, limiti di db e posso mettere qualsiasi tipo di circuito di banner se voglio. E soprattutto per chi vuole posso offrire un hosting di terzo livello di tipo mionome.italialinux.com</p>
 <p>Spero apprezziate il nuovo dominio.</p>
 <p style="text-align: center;"><a href="http://www.italialinux.com/wp-content/uploads/2012/05/blog3.gif"><img class="aligncenter size-full wp-image-812" title="blog3" src="http://www.italialinux.com/wp-content/uploads/2012/05/blog3.gif" alt="" width="720" height="180" /></a></p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Fnuovo-dominio-italialinux-com%2F&amp;title=Nuovo%20Dominio%3A%20italialinux.com%20%3A%29" id="wpa2a_2"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Fnuovo-dominio-italialinux-com%2F&amp;title=Nuovo%20Dominio%3A%20italialinux.com%20%3A%29" id="wpa2a_6"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/05/nuovo-dominio-italialinux-com/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -103,7 +145,7 @@
 <span style="color: #000000; font-weight: bold;">done</span></pre></div></div>
 
 <p>Come potete vedere anche in questo caso fare una interfaccia con dialog é risultato estremamente semplice.</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Fdialog-lezione-3-le-checklist-e-le-radiolist%2F&amp;title=Dialog%20Lezione%203%3A%20Le%20Checklist%20%28e%20le%20radiolist%29" id="wpa2a_4"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F05%2Fdialog-lezione-3-le-checklist-e-le-radiolist%2F&amp;title=Dialog%20Lezione%203%3A%20Le%20Checklist%20%28e%20le%20radiolist%29" id="wpa2a_8"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/05/dialog-lezione-3-le-checklist-e-le-radiolist/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -203,7 +245,7 @@ Set contains 1 nodes:
 <p>Mediante il comando validate possiamo anche validare il nostro xml.</p>
 <p>Questo articolo vuole essere solo una breve introduzione all&#8217;utilizzo di questo comodo strumento, quindi non vi arrabbiate se non contiene tutto quello che cercate <img src='http://www.italialinux.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> . Per oggi mi fermo qui, poi non é detto che non troni sull´argomento in futuro.</p>
 <p>&nbsp;</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Flavorare-con-gli-xml-da-linea-di-comando-xmllint%2F&amp;title=Lavorare%20con%20gli%20XML%20da%20linea%20di%20comando.%20xmllint" id="wpa2a_6"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Flavorare-con-gli-xml-da-linea-di-comando-xmllint%2F&amp;title=Lavorare%20con%20gli%20XML%20da%20linea%20di%20comando.%20xmllint" id="wpa2a_10"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/lavorare-con-gli-xml-da-linea-di-comando-xmllint/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -225,7 +267,7 @@ Set contains 1 nodes:
 <p><a href="http://www.osdev.it/?p=145">http://www.osdev.it/?p=145</a> per la seconda puntata.</p>
 <p>Non appena sara&#8217; pronta vi faro leggere la terza.</p>
 <p>&nbsp;</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fstoria-dellosdev%2F&amp;title=Storia%20dell%E2%80%99osdev" id="wpa2a_8"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fstoria-dellosdev%2F&amp;title=Storia%20dell%E2%80%99osdev" id="wpa2a_12"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/storia-dellosdev/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -247,7 +289,7 @@ Set contains 1 nodes:
 <p>Certo usare un traduttore automatico forse non e&#8217; la scelta migliore, ma purtroppo non ho il tempo per mettermi anche a scrivere articoli in inglese (lo spagnolo nemmeno lo conosco), quindi beh mi devo accontentare per ora <img src='http://www.italialinux.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
 <p>Questo e&#8217; stato reso possibile utilizzando il plugin per wordpress <a href="http://transposh.org/">transpoosh</a>.</p>
 <p>Spero questo servizio verra&#8217; apprezzato <img src='http://www.italialinux.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Faltre-novita-per-italialinux-ovvero-italialinux-multilingua%2F&amp;title=Altre%20novita%E2%80%99%21%20Italialinux%20multilingua" id="wpa2a_10"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Faltre-novita-per-italialinux-ovvero-italialinux-multilingua%2F&amp;title=Altre%20novita%E2%80%99%21%20Italialinux%20multilingua" id="wpa2a_14"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/altre-novita-per-italialinux-ovvero-italialinux-multilingua/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -272,7 +314,7 @@ object file: No such file or directory</pre>
 <pre>revdep-rebuild</pre>
 <p>E attendere. Questo comando si preoccupa di controllare quali programmi e librerie hanno delle shared libraries da cui dipendono mancanti, una volta individuati i pacchetti con questo problema si occupa di ricompilarli ri-emergendo i pacchetti e le librerie mancanti se necessario.</p>
 <p>Nel mio caso ho avuto problemi con vlc e mplayer, e questo comando ha risolto.</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fgentoo-aiuto-i-miei-programmi-non-funzionano-piu%2F&amp;title=Gentoo%3A%20Aiuto%20i%20miei%20programmi%20non%20funzionano%20piu%21" id="wpa2a_12"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fgentoo-aiuto-i-miei-programmi-non-funzionano-piu%2F&amp;title=Gentoo%3A%20Aiuto%20i%20miei%20programmi%20non%20funzionano%20piu%21" id="wpa2a_16"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/gentoo-aiuto-i-miei-programmi-non-funzionano-piu/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -302,7 +344,7 @@ object file: No such file or directory</pre>
 <p>dove dovete idVendor equivale a vendor e idProduct equivale a product del comando sane-find-scanner. A questo punto aggiungete il vostro utente al gruppo scanner con:</p>
 <pre>gpasswd -a username scanner</pre>
 <p>e il gioco e&#8217; fatto.</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fsane-rendere-accessibile-lo-scanner-anche-agli-utenti%2F&amp;title=Sane%3A%20Rendere%20accessibile%20lo%20scanner%20anche%20agli%20utenti" id="wpa2a_14"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fsane-rendere-accessibile-lo-scanner-anche-agli-utenti%2F&amp;title=Sane%3A%20Rendere%20accessibile%20lo%20scanner%20anche%20agli%20utenti" id="wpa2a_18"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/sane-rendere-accessibile-lo-scanner-anche-agli-utenti/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
@@ -333,82 +375,12 @@ object file: No such file or directory</pre>
 <pre>emerge --newuse subversion</pre>
 <p>Aspettate, e una volta terminata la reinstallazione di subversion al prossimo riavvio di eclipse non dovrete piu avere problemi.</p>
 <p>&nbsp;</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fgentoo-subclipse-errore-failed-to-load-javahl-library%2F&amp;title=Gentoo%3A%20Subclipse%20errore%3A%20%E2%80%9CFailed%20to%20load%20JavaHL%20Library%E2%80%9D" id="wpa2a_16"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
+<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fgentoo-subclipse-errore-failed-to-load-javahl-library%2F&amp;title=Gentoo%3A%20Subclipse%20errore%3A%20%E2%80%9CFailed%20to%20load%20JavaHL%20Library%E2%80%9D" id="wpa2a_20"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
 			<wfw:commentRss>http://www.italialinux.com/2012/04/gentoo-subclipse-errore-failed-to-load-javahl-library/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Nuova sezione: Tips And Tricks</title>
-		<link>http://www.italialinux.com/2012/04/nuova-sezione-tips-and-tricks/</link>
-		<comments>http://www.italialinux.com/2012/04/nuova-sezione-tips-and-tricks/#comments</comments>
-		<pubDate>Fri, 06 Apr 2012 16:10:03 +0000</pubDate>
-		<dc:creator>italialinux</dc:creator>
-				<category><![CDATA[Tips And Tricks]]></category>
-
-		<guid isPermaLink="false">http://www.italialinux.com/?p=721</guid>
-		<description><![CDATA[Ho deciso di inaugurare una nuova sezione nel sito, chiamata Tips And Tricks, in questa sezione troverete invece dei soliti articoli con tutorial o notizie, dei mini posts utili per risolvere piccoli problemi che si verificano nell&#8217;utilizzo quotidiano di linux, tipo cosa fare se non funziona piu un plugin, o risolvere piccoli problemi della nostra [...]]]></description>
-			<content:encoded><![CDATA[<p>Ho deciso di inaugurare una nuova sezione nel sito, chiamata Tips And Tricks, in questa sezione troverete invece dei soliti articoli con tutorial o notizie, dei mini posts utili per risolvere piccoli problemi che si verificano nell&#8217;utilizzo quotidiano di linux, tipo cosa fare se non funziona piu un plugin, o risolvere piccoli problemi della nostra distro la cui spiegazione sta in meno di una 15na di righe. Spero tanto che la troverete utile.</p>
-<p>Troverete il link alla sezione in alto a destra. </p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F04%2Fnuova-sezione-tips-and-tricks%2F&amp;title=Nuova%20sezione%3A%20Tips%20And%20Tricks" id="wpa2a_18"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
-			<wfw:commentRss>http://www.italialinux.com/2012/04/nuova-sezione-tips-and-tricks/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Dialog Lezione 2 &#8211; Le Input Box</title>
-		<link>http://www.italialinux.com/2012/03/dialog-lezione-2-le-input-box/</link>
-		<comments>http://www.italialinux.com/2012/03/dialog-lezione-2-le-input-box/#comments</comments>
-		<pubDate>Wed, 28 Mar 2012 12:17:29 +0000</pubDate>
-		<dc:creator>italialinux</dc:creator>
-				<category><![CDATA[Bash]]></category>
-		<category><![CDATA[Dialog]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Script]]></category>
-		<category><![CDATA[bash]]></category>
-		<category><![CDATA[dialog]]></category>
-		<category><![CDATA[script]]></category>
-		<category><![CDATA[sh script]]></category>
-		<category><![CDATA[shell script]]></category>
-
-		<guid isPermaLink="false">http://www.italialinux.com/?p=694</guid>
-		<description><![CDATA[Eccoci dopo un po di attesa alla seconda lezione del nostro minicorso sulle interfaccie basate su Dialog. Dopo aver introdotto le finestre che ci consentono di mostrare dei messaggi di testo, in questa lezione vedremo  come prendere input dall&#8217;utente mediante l&#8217;utilizzo delle input box. Vediamo prima di tutto come compare una inputbox con le dialog: [...]]]></description>
-			<content:encoded><![CDATA[<p>Eccoci dopo un po di attesa alla seconda lezione del nostro minicorso sulle interfaccie basate su Dialog.</p>
-<p>Dopo aver introdotto le finestre che ci consentono di mostrare dei messaggi di testo, in questa lezione vedremo  come prendere input dall&#8217;utente mediante l&#8217;utilizzo delle input box. Vediamo prima di tutto come compare una inputbox con le dialog:</p>
-<p>&nbsp;</p>
-<p><a href="http://italialinux.altervista.org/blog/wp-content/uploads/2012/03/dialog2-1.png"><img class="aligncenter size-full wp-image-696" title="Esempio di inputbox" src="http://italialinux.altervista.org/blog/wp-content/uploads/2012/03/dialog2-1.png" alt="Esempio di inputbox" width="480" height="316" /></a></p>
-<p><span id="more-694"></span></p>
-<p>Come potete vedere la input box contiene un titolo, un messaggio, una casella nel quale inserire il nostro valore e i pulsanti &#8220;Ok&#8221; e &#8220;Annulla&#8221;.  Creare questo tipo di finestre e&#8217; estremamente facile, ora vedremo  il comando per mostrarla e lo spiegheremo  in ogni sua componente, dopo di che spiegheremo come utilizzare il testo inserito come input.</p>
-<p>Il comando utilizzato e&#8217;:</p>
-<pre>dialog --backtitle "Italialinux dialog course" --title "Second Dialog" \</pre>
-<pre>--inputbox "Insert your text" 0 0</pre>
-<p>&#8211;backtitle e &#8211;title le avevamo gia incontrate la volta scorsa.  Brevemente vi ricordo a cosa servono: la prima specifica il titolo sullo sfondo sfondo (quello in alto a sinistra), mentre la seconda viene usata in tutte le dialog, per dare il titolo alla finestra.</p>
-<p>L&#8217;opzione &#8211;inputbox prende dai 3 ai quattro  parametri, il primo indica il messaggio da inserire nella finestra mostrata, il secondo e il terzo indicano invece la larghezza e la lunghezza della finestra di dialogo, passando 0 per entrambi la dimensione viene decisa in maniera automatica. L&#8217;ultimo parametro invecc, opzionale, indica il valore iniziale se previsto.</p>
-<p>Questo e&#8217; quanto basta per creare la nostra inputbox. Ora dobbiamo cercare di capire come poter leggere utilizzare questi dati. Purtroppo il dato letto non viene messo come valore di ritorno dell&#8217;applicazione ma in STDERR, quindi dobbiamo leggere il valore inserito da li. Per far quello basta ridirezionarlo su di un file. Quindi il nostro comando diventera&#8217;:</p>
-<pre>dialog --backtitle "Italialinux dialog course" --title "Second Dialog" \</pre>
-<pre>--inputbox "Insert your text" 0 0 2&gt;tmpfile</pre>
-<p>In questo modo abbiamo indicato che il contenuto di stderr deve andare a finire sul file &#8220;tmpfile&#8221;. Ma quindi cosa contiene il valore di ritorno del comando?</p>
-<p>Semplicemente contiene lo stato di uscita del programma. Se premiamo Ok il valore di retval sara&#8217; 0, mentre se premiamo annulla il valore sara&#8217; 1. Ora per leggere il quanto inserito dall&#8217;utente ci basta usare il comando cat:</p>
-<pre>TEXT=`cat tmpfile`</pre>
-<p>Ora visto che ci stiamo esercitando con le dialog, invece di usare una semplice echo per mostrare il valore inserito dall&#8217;utente, utilizzeremo una messagebox giusto per ripassare:</p>
-<pre>dialog --backtitle "Italialinux dialog course" --title "Valore inserito" \</pre>
-<pre>--msgbox $TEXT  0 0</pre>
-<p>&nbsp;</p>
-<p>(in questo caso, avremo potuto usar anche una textbox visto che leggeva direttamente dal file).</p>
-<p>Ecco quindi uno script di esempio:</p>
-<pre>#/bin/bash
-dialog --backtitle "Italialinux dialog course" --title "Second Dialog" \</pre>
-<pre>--inputbox "Insert your text" 0 0 $1 2&gt;tmpfile
-retval=$?
-TEXT=`cat tmpfile`
-echo $TEXT
-dialog --backtitle "Italialinux dialog course" --title "Valore inserito" \</pre>
-<pre>--msgbox $TEXT 0 0</pre>
-<p>Come vedete lavorare con le dialog e&#8217; molto semplice, per oggi ci fermiamo qua, la prossima volta vedremo le checklist e radiolist.</p>
-<p><a class="a2a_dd a2a_target addtoany_share_save" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.italialinux.com%2F2012%2F03%2Fdialog-lezione-2-le-input-box%2F&amp;title=Dialog%20Lezione%202%20%E2%80%93%20Le%20Input%20Box" id="wpa2a_20"><img src="http://www.italialinux.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></p>]]></content:encoded>
-			<wfw:commentRss>http://www.italialinux.com/2012/03/dialog-lezione-2-le-input-box/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
 </rss>
 
-<!-- Dynamic page generated in 0.423 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2012-05-17 22:42:53 -->
+<!-- Dynamic page generated in 0.411 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-05-20 22:00:58 -->
