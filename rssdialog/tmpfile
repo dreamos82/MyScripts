@@ -1,4 +1,4 @@
-[?1034h/ > cat  //title/text()
+/ > cat  //title/text()
  -------
 Italialinux
  -------
