@@ -1,4 +1,4 @@
-<VirtualHost 78.46.66.163>
+<VirtualHost *:80>
 	DocumentRoot "/mnt/user/@1"
 	ServerName @2
 	<Directory "/mnt/user/@1">

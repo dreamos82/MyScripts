@@ -1,20 +1,22 @@
-#!/bin/bash
+#!/bin/sh
 
 DIALOG () {
 	dialog --backtitle "$TITLE" "$@"
 	return $?
 }
 
+#[LC_ALL=UTF-8
 RSS_NAME="ITalialinux"
 TITLE="Latest news from rss $RSS_NAME"
 REMOTE_URL=http://www.italialinux.com/feed/
 
-wget $REMOTE_URL -O rss.xml
+wget $REMOTE_URL -O rss.xml 
 
 #ITEMS=`xmllint --xpath //title/text() rss.xml >tmpfile`
 ITEMS=`echo 'cat  //title/text()' | xmllint --shell  rss.xml `
 echo "$ITEMS" > tmpfile
 INPUT=""
+rm result 
 while read LINE
 do
 	case $LINE in
@@ -22,7 +24,9 @@ do
 	          continue;;
 	    esac
 #	echo "1 $LINE "
-	INPUT="$INPUT  1 `echo "$LINE"` "
+		echo -n " 1  \"$LINE\"" >>result	
 done < tmpfile
-echo $INPUT
-#DIALOG --menu "Latest news " 30 20 30 "$INPUT"
+#printf "%s " $INPUT
+DIALOG  --menu "Latest news " 20 50 30 `cat result`
+#DIALOG --menu '!test' 0 0 4 1 'Test' 2 'sec!'
+#echo $INPUT
