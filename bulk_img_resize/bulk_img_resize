@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SIZE=$1
+EXTENSION=$2
+
+echo "$SIZE $EXTENSION"
+for i in *.$EXTENSION;
+do
+	echo $i
+	newname=`echo $i|cut -d'.' -f 1`
+	newname+="_t.$EXTENSION"
+	echo "Converting $i"
+	convert $i -resize $1 $newname
+done
+echo $RESULT

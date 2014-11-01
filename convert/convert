@@ -6,6 +6,7 @@ function usage(){
 	echo "Default extension is wav"
 	echo "Options: "
 	echo "-d destinationfolder"
+	echo "-h show this help"
 }
 
 
